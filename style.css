@@ -15,3 +15,11 @@ body {
     color: #3F87F5;
     background-color: #f496d295;
 }
+.apps-store {
+    text-decoration: none;
+    color: white;
+}
+.fa-apple {
+    font-size: 50px;
+    padding-right: 10px;
+}
