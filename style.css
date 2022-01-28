@@ -8,12 +8,30 @@ body {
     background-color:rgba(82, 67, 194, 0.103693);
     padding: 3px;
 }
-.hot-check {
+.package-hover:hover {
+    background-color: blue;
+    color: white;
+    padding: 50px 15px 10px 15px;
+    border-radius: 25px;
+    transform: scaleY(1);
+    transform: translate(0px, -50px);
+    transition-duration: 1.5s;
+}
+.package-hover:hover .fa-check {
+    background-color:rgba(35, 12, 211, 0.884);
     color: white;
 }
-.btn-color {
-    color: #3F87F5;
-    background-color: #f496d295;
+
+.package-hover:hover .btn-color {
+    background-color:white;
+    color: blue;
+}
+.grand-hover:hover {
+    transition-duration: 1.5s;
+    background-color: #DC3545;
+}
+.grand-hover {
+    background-color: #0D6EFD;
 }
 .apps-store {
     text-decoration: none;
