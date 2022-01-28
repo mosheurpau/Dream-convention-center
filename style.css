@@ -3,6 +3,13 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+/* ----------
+    navber
+----------- */
+.nav-hover:hover {
+    border-radius: 10px;
+    border-bottom: 5px solid blue;
+}
 /*------------------
     Our package
 ----------------- */
